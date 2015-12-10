@@ -1,0 +1,1168 @@
+Begin
+Showing Colour :r 100 g 255 b 0
+Showing Colour :r 100 g 100 b 100
+Showing Colour :r 0 g 0 b 0
+255,0,0,255,0,
+0,255,0,0,255,
+0,255,0,0,255,
+0,255,0,0,0,
+0,255,0,0,0,
+'Walled Cities', '2345/45678'
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 0 value 11111111
+
+ Pos X 0 0 Pos Y 0 0 v=255+ Pos X 1 1 Pos Y 0 0 v=0
+ Pos X 0 0 Pos Y 1 1 v=0 Pos X 1 1 Pos Y 1 1 v=255+
+
+ Neighbours 2
+AA
+checkIfAliveOrDead = true
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 0 value 1
+
+ Pos X 0 -1 Pos Y 0 0 v=1 Pos X 1 0 Pos Y 0 0 v=1 Pos X 2 1 Pos Y 0 0 v=0
+ Pos X 0 -1 Pos Y 1 1 v=1 Pos X 1 0 Pos Y 1 1 v=1 Pos X 2 1 Pos Y 1 1 v=255+
+
+ Neighbours 1
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 0 value 1
+
+ Pos X 1 -1 Pos Y 0 0 v=1 Pos X 2 0 Pos Y 0 0 v=1 Pos X 3 1 Pos Y 0 0 v=0
+ Pos X 1 -1 Pos Y 1 1 v=1 Pos X 2 0 Pos Y 1 1 v=1 Pos X 3 1 Pos Y 1 1 v=255+
+
+ Neighbours 1
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 0 value 1
+
+ Pos X 2 -1 Pos Y 0 0 v=1 Pos X 3 0 Pos Y 0 0 v=1 Pos X 4 1 Pos Y 0 0 v=0
+ Pos X 2 -1 Pos Y 1 1 v=1 Pos X 3 0 Pos Y 1 1 v=1 Pos X 4 1 Pos Y 1 1 v=255+
+
+ Neighbours 1
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 0 value 1
+
+ Pos X 3 -1 Pos Y 0 0 v=1 Pos X 4 0 Pos Y 0 0 v=1 Pos X 5 1 Pos Y 0 0 v=0
+ Pos X 3 -1 Pos Y 1 1 v=1 Pos X 4 0 Pos Y 1 1 v=1 Pos X 5 1 Pos Y 1 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 1 value 1
+ Pos X 0 0 Pos Y 0 -1 v=1 Pos X 1 1 Pos Y 0 -1 v=1
+ Pos X 0 0 Pos Y 1 0 v=1 Pos X 1 1 Pos Y 1 0 v=1
+ Pos X 0 0 Pos Y 2 1 v=0 Pos X 1 1 Pos Y 2 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 1 value 1
+ Pos X 0 -1 Pos Y 0 -1 v=1 Pos X 1 0 Pos Y 0 -1 v=1 Pos X 2 1 Pos Y 0 -1 v=1
+ Pos X 0 -1 Pos Y 1 0 v=1 Pos X 1 0 Pos Y 1 0 v=1 Pos X 2 1 Pos Y 1 0 v=1
+ Pos X 0 -1 Pos Y 2 1 v=1 Pos X 1 0 Pos Y 2 1 v=1 Pos X 2 1 Pos Y 2 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 1 value 1
+ Pos X 1 -1 Pos Y 0 -1 v=1 Pos X 2 0 Pos Y 0 -1 v=1 Pos X 3 1 Pos Y 0 -1 v=1
+ Pos X 1 -1 Pos Y 1 0 v=1 Pos X 2 0 Pos Y 1 0 v=1 Pos X 3 1 Pos Y 1 0 v=1
+ Pos X 1 -1 Pos Y 2 1 v=1 Pos X 2 0 Pos Y 2 1 v=1 Pos X 3 1 Pos Y 2 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 1 value 1
+ Pos X 2 -1 Pos Y 0 -1 v=1 Pos X 3 0 Pos Y 0 -1 v=1 Pos X 4 1 Pos Y 0 -1 v=1
+ Pos X 2 -1 Pos Y 1 0 v=1 Pos X 3 0 Pos Y 1 0 v=1 Pos X 4 1 Pos Y 1 0 v=1
+ Pos X 2 -1 Pos Y 2 1 v=1 Pos X 3 0 Pos Y 2 1 v=1 Pos X 4 1 Pos Y 2 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 1 value 1
+ Pos X 3 -1 Pos Y 0 -1 v=1 Pos X 4 0 Pos Y 0 -1 v=1 Pos X 5 1 Pos Y 0 -1 v=1
+ Pos X 3 -1 Pos Y 1 0 v=1 Pos X 4 0 Pos Y 1 0 v=1 Pos X 5 1 Pos Y 1 0 v=1
+ Pos X 3 -1 Pos Y 2 1 v=1 Pos X 4 0 Pos Y 2 1 v=1 Pos X 5 1 Pos Y 2 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 2 value 1
+ Pos X 0 0 Pos Y 1 -1 v=1 Pos X 1 1 Pos Y 1 -1 v=1
+ Pos X 0 0 Pos Y 2 0 v=1 Pos X 1 1 Pos Y 2 0 v=1
+ Pos X 0 0 Pos Y 3 1 v=255+ Pos X 1 1 Pos Y 3 1 v=0
+
+ Neighbours 1
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 2 value 1
+ Pos X 0 -1 Pos Y 1 -1 v=1 Pos X 1 0 Pos Y 1 -1 v=1 Pos X 2 1 Pos Y 1 -1 v=1
+ Pos X 0 -1 Pos Y 2 0 v=1 Pos X 1 0 Pos Y 2 0 v=1 Pos X 2 1 Pos Y 2 0 v=1
+ Pos X 0 -1 Pos Y 3 1 v=1 Pos X 1 0 Pos Y 3 1 v=1 Pos X 2 1 Pos Y 3 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 2 value 1
+ Pos X 1 -1 Pos Y 1 -1 v=1 Pos X 2 0 Pos Y 1 -1 v=1 Pos X 3 1 Pos Y 1 -1 v=1
+ Pos X 1 -1 Pos Y 2 0 v=1 Pos X 2 0 Pos Y 2 0 v=1 Pos X 3 1 Pos Y 2 0 v=1
+ Pos X 1 -1 Pos Y 3 1 v=1 Pos X 2 0 Pos Y 3 1 v=1 Pos X 3 1 Pos Y 3 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 2 value 1
+ Pos X 2 -1 Pos Y 1 -1 v=1 Pos X 3 0 Pos Y 1 -1 v=1 Pos X 4 1 Pos Y 1 -1 v=1
+ Pos X 2 -1 Pos Y 2 0 v=1 Pos X 3 0 Pos Y 2 0 v=1 Pos X 4 1 Pos Y 2 0 v=1
+ Pos X 2 -1 Pos Y 3 1 v=1 Pos X 3 0 Pos Y 3 1 v=1 Pos X 4 1 Pos Y 3 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 2 value 1
+ Pos X 3 -1 Pos Y 1 -1 v=1 Pos X 4 0 Pos Y 1 -1 v=1 Pos X 5 1 Pos Y 1 -1 v=1
+ Pos X 3 -1 Pos Y 2 0 v=1 Pos X 4 0 Pos Y 2 0 v=1 Pos X 5 1 Pos Y 2 0 v=1
+ Pos X 3 -1 Pos Y 3 1 v=1 Pos X 4 0 Pos Y 3 1 v=1 Pos X 5 1 Pos Y 3 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 3 value 1
+ Pos X 0 0 Pos Y 2 -1 v=1 Pos X 1 1 Pos Y 2 -1 v=1
+ Pos X 0 0 Pos Y 3 0 v=1 Pos X 1 1 Pos Y 3 0 v=1
+ Pos X 0 0 Pos Y 4 1 v=0 Pos X 1 1 Pos Y 4 1 v=255+
+
+ Neighbours 1
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 3 value 1
+ Pos X 0 -1 Pos Y 2 -1 v=1 Pos X 1 0 Pos Y 2 -1 v=1 Pos X 2 1 Pos Y 2 -1 v=1
+ Pos X 0 -1 Pos Y 3 0 v=1 Pos X 1 0 Pos Y 3 0 v=1 Pos X 2 1 Pos Y 3 0 v=1
+ Pos X 0 -1 Pos Y 4 1 v=1 Pos X 1 0 Pos Y 4 1 v=1 Pos X 2 1 Pos Y 4 1 v=255+
+
+ Neighbours 1
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 3 value 1
+ Pos X 1 -1 Pos Y 2 -1 v=1 Pos X 2 0 Pos Y 2 -1 v=1 Pos X 3 1 Pos Y 2 -1 v=1
+ Pos X 1 -1 Pos Y 3 0 v=1 Pos X 2 0 Pos Y 3 0 v=1 Pos X 3 1 Pos Y 3 0 v=1
+ Pos X 1 -1 Pos Y 4 1 v=1 Pos X 2 0 Pos Y 4 1 v=1 Pos X 3 1 Pos Y 4 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 3 value 1
+ Pos X 2 -1 Pos Y 2 -1 v=1 Pos X 3 0 Pos Y 2 -1 v=1 Pos X 4 1 Pos Y 2 -1 v=1
+ Pos X 2 -1 Pos Y 3 0 v=1 Pos X 3 0 Pos Y 3 0 v=1 Pos X 4 1 Pos Y 3 0 v=1
+ Pos X 2 -1 Pos Y 4 1 v=1 Pos X 3 0 Pos Y 4 1 v=1 Pos X 4 1 Pos Y 4 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 3 value 1
+ Pos X 3 -1 Pos Y 2 -1 v=1 Pos X 4 0 Pos Y 2 -1 v=1 Pos X 5 1 Pos Y 2 -1 v=1
+ Pos X 3 -1 Pos Y 3 0 v=1 Pos X 4 0 Pos Y 3 0 v=1 Pos X 5 1 Pos Y 3 0 v=1
+ Pos X 3 -1 Pos Y 4 1 v=1 Pos X 4 0 Pos Y 4 1 v=1 Pos X 5 1 Pos Y 4 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 4 value 1
+ Pos X 0 0 Pos Y 3 -1 v=1 Pos X 1 1 Pos Y 3 -1 v=1
+ Pos X 0 0 Pos Y 4 0 v=1 Pos X 1 1 Pos Y 4 0 v=1
+ Pos X 0 0 Pos Y 5 1 v=1 Pos X 1 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 4 value 1
+ Pos X 0 -1 Pos Y 3 -1 v=1 Pos X 1 0 Pos Y 3 -1 v=1 Pos X 2 1 Pos Y 3 -1 v=1
+ Pos X 0 -1 Pos Y 4 0 v=1 Pos X 1 0 Pos Y 4 0 v=1 Pos X 2 1 Pos Y 4 0 v=1
+ Pos X 0 -1 Pos Y 5 1 v=1 Pos X 1 0 Pos Y 5 1 v=1 Pos X 2 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 4 value 1
+ Pos X 1 -1 Pos Y 3 -1 v=1 Pos X 2 0 Pos Y 3 -1 v=1 Pos X 3 1 Pos Y 3 -1 v=1
+ Pos X 1 -1 Pos Y 4 0 v=1 Pos X 2 0 Pos Y 4 0 v=1 Pos X 3 1 Pos Y 4 0 v=1
+ Pos X 1 -1 Pos Y 5 1 v=1 Pos X 2 0 Pos Y 5 1 v=1 Pos X 3 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 4 value 1
+ Pos X 2 -1 Pos Y 3 -1 v=1 Pos X 3 0 Pos Y 3 -1 v=1 Pos X 4 1 Pos Y 3 -1 v=1
+ Pos X 2 -1 Pos Y 4 0 v=1 Pos X 3 0 Pos Y 4 0 v=1 Pos X 4 1 Pos Y 4 0 v=1
+ Pos X 2 -1 Pos Y 5 1 v=1 Pos X 3 0 Pos Y 5 1 v=1 Pos X 4 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 4 value 1
+ Pos X 3 -1 Pos Y 3 -1 v=1 Pos X 4 0 Pos Y 3 -1 v=1 Pos X 5 1 Pos Y 3 -1 v=1
+ Pos X 3 -1 Pos Y 4 0 v=1 Pos X 4 0 Pos Y 4 0 v=1 Pos X 5 1 Pos Y 4 0 v=1
+ Pos X 3 -1 Pos Y 5 1 v=1 Pos X 4 0 Pos Y 5 1 v=1 Pos X 5 1 Pos Y 5 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Generation 1 Number of cells alive 1 Number of cells killed 24
+ H 69 V 255 H 81 V 248 H 126 V 248 H 77 V 248 H 102 V 248
+ H 124 V 248 H 105 V 248 H 126 V 248 H 98 V 248 H 112 V 248
+ H 113 V 248 H 39 V 248 H 136 V 248 H 99 V 248 H 127 V 248
+ H 89 V 248 H 136 V 248 H 82 V 248 H 93 V 248 H 93 V 248
+ H 140 V 248 H 9 V 248 H 17 V 248 H 37 V 248 H 20 V 248
+Sending data
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 0 value 11111111
+
+ Pos X 0 0 Pos Y 0 0 v=255+ Pos X 1 1 Pos Y 0 0 v=248
+ Pos X 0 0 Pos Y 1 1 v=248 Pos X 1 1 Pos Y 1 1 v=248
+
+ Neighbours 1
+AA
+checkIfAliveOrDead = true
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 0 value 1
+
+ Pos X 0 -1 Pos Y 0 0 v=1 Pos X 1 0 Pos Y 0 0 v=1 Pos X 2 1 Pos Y 0 0 v=248
+ Pos X 0 -1 Pos Y 1 1 v=1 Pos X 1 0 Pos Y 1 1 v=1 Pos X 2 1 Pos Y 1 1 v=248
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 0 value 1
+
+ Pos X 1 -1 Pos Y 0 0 v=1 Pos X 2 0 Pos Y 0 0 v=1 Pos X 3 1 Pos Y 0 0 v=248
+ Pos X 1 -1 Pos Y 1 1 v=1 Pos X 2 0 Pos Y 1 1 v=1 Pos X 3 1 Pos Y 1 1 v=248
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 0 value 1
+
+ Pos X 2 -1 Pos Y 0 0 v=1 Pos X 3 0 Pos Y 0 0 v=1 Pos X 4 1 Pos Y 0 0 v=248
+ Pos X 2 -1 Pos Y 1 1 v=1 Pos X 3 0 Pos Y 1 1 v=1 Pos X 4 1 Pos Y 1 1 v=248
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 0 value 1
+
+ Pos X 3 -1 Pos Y 0 0 v=1 Pos X 4 0 Pos Y 0 0 v=1 Pos X 5 1 Pos Y 0 0 v=139
+ Pos X 3 -1 Pos Y 1 1 v=1 Pos X 4 0 Pos Y 1 1 v=1 Pos X 5 1 Pos Y 1 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 1 value 1
+ Pos X 0 0 Pos Y 0 -1 v=1 Pos X 1 1 Pos Y 0 -1 v=1
+ Pos X 0 0 Pos Y 1 0 v=1 Pos X 1 1 Pos Y 1 0 v=1
+ Pos X 0 0 Pos Y 2 1 v=248 Pos X 1 1 Pos Y 2 1 v=248
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 1 value 1
+ Pos X 0 -1 Pos Y 0 -1 v=1 Pos X 1 0 Pos Y 0 -1 v=1 Pos X 2 1 Pos Y 0 -1 v=1
+ Pos X 0 -1 Pos Y 1 0 v=1 Pos X 1 0 Pos Y 1 0 v=1 Pos X 2 1 Pos Y 1 0 v=1
+ Pos X 0 -1 Pos Y 2 1 v=1 Pos X 1 0 Pos Y 2 1 v=1 Pos X 2 1 Pos Y 2 1 v=248
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 1 value 1
+ Pos X 1 -1 Pos Y 0 -1 v=1 Pos X 2 0 Pos Y 0 -1 v=1 Pos X 3 1 Pos Y 0 -1 v=1
+ Pos X 1 -1 Pos Y 1 0 v=1 Pos X 2 0 Pos Y 1 0 v=1 Pos X 3 1 Pos Y 1 0 v=1
+ Pos X 1 -1 Pos Y 2 1 v=1 Pos X 2 0 Pos Y 2 1 v=1 Pos X 3 1 Pos Y 2 1 v=248
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 1 value 1
+ Pos X 2 -1 Pos Y 0 -1 v=1 Pos X 3 0 Pos Y 0 -1 v=1 Pos X 4 1 Pos Y 0 -1 v=1
+ Pos X 2 -1 Pos Y 1 0 v=1 Pos X 3 0 Pos Y 1 0 v=1 Pos X 4 1 Pos Y 1 0 v=1
+ Pos X 2 -1 Pos Y 2 1 v=1 Pos X 3 0 Pos Y 2 1 v=1 Pos X 4 1 Pos Y 2 1 v=248
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 1 value 1
+ Pos X 3 -1 Pos Y 0 -1 v=1 Pos X 4 0 Pos Y 0 -1 v=1 Pos X 5 1 Pos Y 0 -1 v=1
+ Pos X 3 -1 Pos Y 1 0 v=1 Pos X 4 0 Pos Y 1 0 v=1 Pos X 5 1 Pos Y 1 0 v=1
+ Pos X 3 -1 Pos Y 2 1 v=1 Pos X 4 0 Pos Y 2 1 v=1 Pos X 5 1 Pos Y 2 1 v=18
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 2 value 1
+ Pos X 0 0 Pos Y 1 -1 v=1 Pos X 1 1 Pos Y 1 -1 v=1
+ Pos X 0 0 Pos Y 2 0 v=1 Pos X 1 1 Pos Y 2 0 v=1
+ Pos X 0 0 Pos Y 3 1 v=248 Pos X 1 1 Pos Y 3 1 v=248
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 2 value 1
+ Pos X 0 -1 Pos Y 1 -1 v=1 Pos X 1 0 Pos Y 1 -1 v=1 Pos X 2 1 Pos Y 1 -1 v=1
+ Pos X 0 -1 Pos Y 2 0 v=1 Pos X 1 0 Pos Y 2 0 v=1 Pos X 2 1 Pos Y 2 0 v=1
+ Pos X 0 -1 Pos Y 3 1 v=1 Pos X 1 0 Pos Y 3 1 v=1 Pos X 2 1 Pos Y 3 1 v=248
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 2 value 1
+ Pos X 1 -1 Pos Y 1 -1 v=1 Pos X 2 0 Pos Y 1 -1 v=1 Pos X 3 1 Pos Y 1 -1 v=1
+ Pos X 1 -1 Pos Y 2 0 v=1 Pos X 2 0 Pos Y 2 0 v=1 Pos X 3 1 Pos Y 2 0 v=1
+ Pos X 1 -1 Pos Y 3 1 v=1 Pos X 2 0 Pos Y 3 1 v=1 Pos X 3 1 Pos Y 3 1 v=248
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 2 value 1
+ Pos X 2 -1 Pos Y 1 -1 v=1 Pos X 3 0 Pos Y 1 -1 v=1 Pos X 4 1 Pos Y 1 -1 v=1
+ Pos X 2 -1 Pos Y 2 0 v=1 Pos X 3 0 Pos Y 2 0 v=1 Pos X 4 1 Pos Y 2 0 v=1
+ Pos X 2 -1 Pos Y 3 1 v=1 Pos X 3 0 Pos Y 3 1 v=1 Pos X 4 1 Pos Y 3 1 v=248
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 2 value 1
+ Pos X 3 -1 Pos Y 1 -1 v=1 Pos X 4 0 Pos Y 1 -1 v=1 Pos X 5 1 Pos Y 1 -1 v=1
+ Pos X 3 -1 Pos Y 2 0 v=1 Pos X 4 0 Pos Y 2 0 v=1 Pos X 5 1 Pos Y 2 0 v=1
+ Pos X 3 -1 Pos Y 3 1 v=1 Pos X 4 0 Pos Y 3 1 v=1 Pos X 5 1 Pos Y 3 1 v=225
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 3 value 1
+ Pos X 0 0 Pos Y 2 -1 v=1 Pos X 1 1 Pos Y 2 -1 v=1
+ Pos X 0 0 Pos Y 3 0 v=1 Pos X 1 1 Pos Y 3 0 v=1
+ Pos X 0 0 Pos Y 4 1 v=248 Pos X 1 1 Pos Y 4 1 v=248
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 3 value 1
+ Pos X 0 -1 Pos Y 2 -1 v=1 Pos X 1 0 Pos Y 2 -1 v=1 Pos X 2 1 Pos Y 2 -1 v=1
+ Pos X 0 -1 Pos Y 3 0 v=1 Pos X 1 0 Pos Y 3 0 v=1 Pos X 2 1 Pos Y 3 0 v=1
+ Pos X 0 -1 Pos Y 4 1 v=1 Pos X 1 0 Pos Y 4 1 v=1 Pos X 2 1 Pos Y 4 1 v=248
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 3 value 1
+ Pos X 1 -1 Pos Y 2 -1 v=1 Pos X 2 0 Pos Y 2 -1 v=1 Pos X 3 1 Pos Y 2 -1 v=1
+ Pos X 1 -1 Pos Y 3 0 v=1 Pos X 2 0 Pos Y 3 0 v=1 Pos X 3 1 Pos Y 3 0 v=1
+ Pos X 1 -1 Pos Y 4 1 v=1 Pos X 2 0 Pos Y 4 1 v=1 Pos X 3 1 Pos Y 4 1 v=248
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 3 value 1
+ Pos X 2 -1 Pos Y 2 -1 v=1 Pos X 3 0 Pos Y 2 -1 v=1 Pos X 4 1 Pos Y 2 -1 v=1
+ Pos X 2 -1 Pos Y 3 0 v=1 Pos X 3 0 Pos Y 3 0 v=1 Pos X 4 1 Pos Y 3 0 v=1
+ Pos X 2 -1 Pos Y 4 1 v=1 Pos X 3 0 Pos Y 4 1 v=1 Pos X 4 1 Pos Y 4 1 v=248
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 3 value 1
+ Pos X 3 -1 Pos Y 2 -1 v=1 Pos X 4 0 Pos Y 2 -1 v=1 Pos X 5 1 Pos Y 2 -1 v=1
+ Pos X 3 -1 Pos Y 3 0 v=1 Pos X 4 0 Pos Y 3 0 v=1 Pos X 5 1 Pos Y 3 0 v=1
+ Pos X 3 -1 Pos Y 4 1 v=1 Pos X 4 0 Pos Y 4 1 v=1 Pos X 5 1 Pos Y 4 1 v=86
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 4 value 1
+ Pos X 0 0 Pos Y 3 -1 v=1 Pos X 1 1 Pos Y 3 -1 v=1
+ Pos X 0 0 Pos Y 4 0 v=1 Pos X 1 1 Pos Y 4 0 v=1
+ Pos X 0 0 Pos Y 5 1 v=1 Pos X 1 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 4 value 1
+ Pos X 0 -1 Pos Y 3 -1 v=1 Pos X 1 0 Pos Y 3 -1 v=1 Pos X 2 1 Pos Y 3 -1 v=1
+ Pos X 0 -1 Pos Y 4 0 v=1 Pos X 1 0 Pos Y 4 0 v=1 Pos X 2 1 Pos Y 4 0 v=1
+ Pos X 0 -1 Pos Y 5 1 v=1 Pos X 1 0 Pos Y 5 1 v=1 Pos X 2 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 4 value 1
+ Pos X 1 -1 Pos Y 3 -1 v=1 Pos X 2 0 Pos Y 3 -1 v=1 Pos X 3 1 Pos Y 3 -1 v=1
+ Pos X 1 -1 Pos Y 4 0 v=1 Pos X 2 0 Pos Y 4 0 v=1 Pos X 3 1 Pos Y 4 0 v=1
+ Pos X 1 -1 Pos Y 5 1 v=1 Pos X 2 0 Pos Y 5 1 v=1 Pos X 3 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 4 value 1
+ Pos X 2 -1 Pos Y 3 -1 v=1 Pos X 3 0 Pos Y 3 -1 v=1 Pos X 4 1 Pos Y 3 -1 v=1
+ Pos X 2 -1 Pos Y 4 0 v=1 Pos X 3 0 Pos Y 4 0 v=1 Pos X 4 1 Pos Y 4 0 v=1
+ Pos X 2 -1 Pos Y 5 1 v=1 Pos X 3 0 Pos Y 5 1 v=1 Pos X 4 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 4 value 1
+ Pos X 3 -1 Pos Y 3 -1 v=1 Pos X 4 0 Pos Y 3 -1 v=1 Pos X 5 1 Pos Y 3 -1 v=1
+ Pos X 3 -1 Pos Y 4 0 v=1 Pos X 4 0 Pos Y 4 0 v=1 Pos X 5 1 Pos Y 4 0 v=1
+ Pos X 3 -1 Pos Y 5 1 v=1 Pos X 4 0 Pos Y 5 1 v=1 Pos X 5 1 Pos Y 5 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Generation 2 Number of cells alive 1 Number of cells killed 24
+ H 79 V 255 H 96 V 240 H 110 V 240 H 96 V 240 H 103 V 240
+ H 101 V 240 H 103 V 240 H 99 V 240 H 111 V 240 H 104 V 240
+ H 106 V 240 H 106 V 240 H 102 V 240 H 107 V 240 H 106 V 240
+ H 90 V 240 H 87 V 240 H 71 V 240 H 79 V 240 H 92 V 240
+ H 112 V 240 H 80 V 240 H 44 V 240 H 43 V 240 H 75 V 240
+Sending data
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 0 value 11111111
+
+ Pos X 0 0 Pos Y 0 0 v=255+ Pos X 1 1 Pos Y 0 0 v=240
+ Pos X 0 0 Pos Y 1 1 v=240 Pos X 1 1 Pos Y 1 1 v=240
+
+ Neighbours 1
+AA
+checkIfAliveOrDead = true
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 0 value 1
+
+ Pos X 0 -1 Pos Y 0 0 v=1 Pos X 1 0 Pos Y 0 0 v=1 Pos X 2 1 Pos Y 0 0 v=240
+ Pos X 0 -1 Pos Y 1 1 v=1 Pos X 1 0 Pos Y 1 1 v=1 Pos X 2 1 Pos Y 1 1 v=240
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 0 value 1
+
+ Pos X 1 -1 Pos Y 0 0 v=1 Pos X 2 0 Pos Y 0 0 v=1 Pos X 3 1 Pos Y 0 0 v=240
+ Pos X 1 -1 Pos Y 1 1 v=1 Pos X 2 0 Pos Y 1 1 v=1 Pos X 3 1 Pos Y 1 1 v=240
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 0 value 1
+
+ Pos X 2 -1 Pos Y 0 0 v=1 Pos X 3 0 Pos Y 0 0 v=1 Pos X 4 1 Pos Y 0 0 v=240
+ Pos X 2 -1 Pos Y 1 1 v=1 Pos X 3 0 Pos Y 1 1 v=1 Pos X 4 1 Pos Y 1 1 v=240
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 0 value 1
+
+ Pos X 3 -1 Pos Y 0 0 v=1 Pos X 4 0 Pos Y 0 0 v=1 Pos X 5 1 Pos Y 0 0 v=152
+ Pos X 3 -1 Pos Y 1 1 v=1 Pos X 4 0 Pos Y 1 1 v=1 Pos X 5 1 Pos Y 1 1 v=63
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 1 value 1
+ Pos X 0 0 Pos Y 0 -1 v=1 Pos X 1 1 Pos Y 0 -1 v=1
+ Pos X 0 0 Pos Y 1 0 v=1 Pos X 1 1 Pos Y 1 0 v=1
+ Pos X 0 0 Pos Y 2 1 v=240 Pos X 1 1 Pos Y 2 1 v=240
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 1 value 1
+ Pos X 0 -1 Pos Y 0 -1 v=1 Pos X 1 0 Pos Y 0 -1 v=1 Pos X 2 1 Pos Y 0 -1 v=1
+ Pos X 0 -1 Pos Y 1 0 v=1 Pos X 1 0 Pos Y 1 0 v=1 Pos X 2 1 Pos Y 1 0 v=1
+ Pos X 0 -1 Pos Y 2 1 v=1 Pos X 1 0 Pos Y 2 1 v=1 Pos X 2 1 Pos Y 2 1 v=240
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 1 value 1
+ Pos X 1 -1 Pos Y 0 -1 v=1 Pos X 2 0 Pos Y 0 -1 v=1 Pos X 3 1 Pos Y 0 -1 v=1
+ Pos X 1 -1 Pos Y 1 0 v=1 Pos X 2 0 Pos Y 1 0 v=1 Pos X 3 1 Pos Y 1 0 v=1
+ Pos X 1 -1 Pos Y 2 1 v=1 Pos X 2 0 Pos Y 2 1 v=1 Pos X 3 1 Pos Y 2 1 v=240
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 1 value 1
+ Pos X 2 -1 Pos Y 0 -1 v=1 Pos X 3 0 Pos Y 0 -1 v=1 Pos X 4 1 Pos Y 0 -1 v=1
+ Pos X 2 -1 Pos Y 1 0 v=1 Pos X 3 0 Pos Y 1 0 v=1 Pos X 4 1 Pos Y 1 0 v=1
+ Pos X 2 -1 Pos Y 2 1 v=1 Pos X 3 0 Pos Y 2 1 v=1 Pos X 4 1 Pos Y 2 1 v=240
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 1 value 1
+ Pos X 3 -1 Pos Y 0 -1 v=1 Pos X 4 0 Pos Y 0 -1 v=1 Pos X 5 1 Pos Y 0 -1 v=1
+ Pos X 3 -1 Pos Y 1 0 v=1 Pos X 4 0 Pos Y 1 0 v=1 Pos X 5 1 Pos Y 1 0 v=1
+ Pos X 3 -1 Pos Y 2 1 v=1 Pos X 4 0 Pos Y 2 1 v=1 Pos X 5 1 Pos Y 2 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 2 value 1
+ Pos X 0 0 Pos Y 1 -1 v=1 Pos X 1 1 Pos Y 1 -1 v=1
+ Pos X 0 0 Pos Y 2 0 v=1 Pos X 1 1 Pos Y 2 0 v=1
+ Pos X 0 0 Pos Y 3 1 v=240 Pos X 1 1 Pos Y 3 1 v=240
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 2 value 1
+ Pos X 0 -1 Pos Y 1 -1 v=1 Pos X 1 0 Pos Y 1 -1 v=1 Pos X 2 1 Pos Y 1 -1 v=1
+ Pos X 0 -1 Pos Y 2 0 v=1 Pos X 1 0 Pos Y 2 0 v=1 Pos X 2 1 Pos Y 2 0 v=1
+ Pos X 0 -1 Pos Y 3 1 v=1 Pos X 1 0 Pos Y 3 1 v=1 Pos X 2 1 Pos Y 3 1 v=240
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 2 value 1
+ Pos X 1 -1 Pos Y 1 -1 v=1 Pos X 2 0 Pos Y 1 -1 v=1 Pos X 3 1 Pos Y 1 -1 v=1
+ Pos X 1 -1 Pos Y 2 0 v=1 Pos X 2 0 Pos Y 2 0 v=1 Pos X 3 1 Pos Y 2 0 v=1
+ Pos X 1 -1 Pos Y 3 1 v=1 Pos X 2 0 Pos Y 3 1 v=1 Pos X 3 1 Pos Y 3 1 v=240
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 2 value 1
+ Pos X 2 -1 Pos Y 1 -1 v=1 Pos X 3 0 Pos Y 1 -1 v=1 Pos X 4 1 Pos Y 1 -1 v=1
+ Pos X 2 -1 Pos Y 2 0 v=1 Pos X 3 0 Pos Y 2 0 v=1 Pos X 4 1 Pos Y 2 0 v=1
+ Pos X 2 -1 Pos Y 3 1 v=1 Pos X 3 0 Pos Y 3 1 v=1 Pos X 4 1 Pos Y 3 1 v=240
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 2 value 1
+ Pos X 3 -1 Pos Y 1 -1 v=1 Pos X 4 0 Pos Y 1 -1 v=1 Pos X 5 1 Pos Y 1 -1 v=1
+ Pos X 3 -1 Pos Y 2 0 v=1 Pos X 4 0 Pos Y 2 0 v=1 Pos X 5 1 Pos Y 2 0 v=1
+ Pos X 3 -1 Pos Y 3 1 v=1 Pos X 4 0 Pos Y 3 1 v=1 Pos X 5 1 Pos Y 3 1 v=203
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 3 value 1
+ Pos X 0 0 Pos Y 2 -1 v=1 Pos X 1 1 Pos Y 2 -1 v=1
+ Pos X 0 0 Pos Y 3 0 v=1 Pos X 1 1 Pos Y 3 0 v=1
+ Pos X 0 0 Pos Y 4 1 v=240 Pos X 1 1 Pos Y 4 1 v=240
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 3 value 1
+ Pos X 0 -1 Pos Y 2 -1 v=1 Pos X 1 0 Pos Y 2 -1 v=1 Pos X 2 1 Pos Y 2 -1 v=1
+ Pos X 0 -1 Pos Y 3 0 v=1 Pos X 1 0 Pos Y 3 0 v=1 Pos X 2 1 Pos Y 3 0 v=1
+ Pos X 0 -1 Pos Y 4 1 v=1 Pos X 1 0 Pos Y 4 1 v=1 Pos X 2 1 Pos Y 4 1 v=240
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 3 value 1
+ Pos X 1 -1 Pos Y 2 -1 v=1 Pos X 2 0 Pos Y 2 -1 v=1 Pos X 3 1 Pos Y 2 -1 v=1
+ Pos X 1 -1 Pos Y 3 0 v=1 Pos X 2 0 Pos Y 3 0 v=1 Pos X 3 1 Pos Y 3 0 v=1
+ Pos X 1 -1 Pos Y 4 1 v=1 Pos X 2 0 Pos Y 4 1 v=1 Pos X 3 1 Pos Y 4 1 v=240
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 3 value 1
+ Pos X 2 -1 Pos Y 2 -1 v=1 Pos X 3 0 Pos Y 2 -1 v=1 Pos X 4 1 Pos Y 2 -1 v=1
+ Pos X 2 -1 Pos Y 3 0 v=1 Pos X 3 0 Pos Y 3 0 v=1 Pos X 4 1 Pos Y 3 0 v=1
+ Pos X 2 -1 Pos Y 4 1 v=1 Pos X 3 0 Pos Y 4 1 v=1 Pos X 4 1 Pos Y 4 1 v=240
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 3 value 1
+ Pos X 3 -1 Pos Y 2 -1 v=1 Pos X 4 0 Pos Y 2 -1 v=1 Pos X 5 1 Pos Y 2 -1 v=1
+ Pos X 3 -1 Pos Y 3 0 v=1 Pos X 4 0 Pos Y 3 0 v=1 Pos X 5 1 Pos Y 3 0 v=1
+ Pos X 3 -1 Pos Y 4 1 v=1 Pos X 4 0 Pos Y 4 1 v=1 Pos X 5 1 Pos Y 4 1 v=85
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 4 value 1
+ Pos X 0 0 Pos Y 3 -1 v=1 Pos X 1 1 Pos Y 3 -1 v=1
+ Pos X 0 0 Pos Y 4 0 v=1 Pos X 1 1 Pos Y 4 0 v=1
+ Pos X 0 0 Pos Y 5 1 v=1 Pos X 1 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 4 value 1
+ Pos X 0 -1 Pos Y 3 -1 v=1 Pos X 1 0 Pos Y 3 -1 v=1 Pos X 2 1 Pos Y 3 -1 v=1
+ Pos X 0 -1 Pos Y 4 0 v=1 Pos X 1 0 Pos Y 4 0 v=1 Pos X 2 1 Pos Y 4 0 v=1
+ Pos X 0 -1 Pos Y 5 1 v=1 Pos X 1 0 Pos Y 5 1 v=1 Pos X 2 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 4 value 1
+ Pos X 1 -1 Pos Y 3 -1 v=1 Pos X 2 0 Pos Y 3 -1 v=1 Pos X 3 1 Pos Y 3 -1 v=1
+ Pos X 1 -1 Pos Y 4 0 v=1 Pos X 2 0 Pos Y 4 0 v=1 Pos X 3 1 Pos Y 4 0 v=1
+ Pos X 1 -1 Pos Y 5 1 v=1 Pos X 2 0 Pos Y 5 1 v=1 Pos X 3 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 4 value 1
+ Pos X 2 -1 Pos Y 3 -1 v=1 Pos X 3 0 Pos Y 3 -1 v=1 Pos X 4 1 Pos Y 3 -1 v=1
+ Pos X 2 -1 Pos Y 4 0 v=1 Pos X 3 0 Pos Y 4 0 v=1 Pos X 4 1 Pos Y 4 0 v=1
+ Pos X 2 -1 Pos Y 5 1 v=1 Pos X 3 0 Pos Y 5 1 v=1 Pos X 4 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 4 value 1
+ Pos X 3 -1 Pos Y 3 -1 v=1 Pos X 4 0 Pos Y 3 -1 v=1 Pos X 5 1 Pos Y 3 -1 v=1
+ Pos X 3 -1 Pos Y 4 0 v=1 Pos X 4 0 Pos Y 4 0 v=1 Pos X 5 1 Pos Y 4 0 v=1
+ Pos X 3 -1 Pos Y 5 1 v=1 Pos X 4 0 Pos Y 5 1 v=1 Pos X 5 1 Pos Y 5 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Generation 3 Number of cells alive 1 Number of cells killed 24
+ H 85 V 255 H 97 V 232 H 105 V 232 H 101 V 232 H 103 V 232
+ H 99 V 232 H 100 V 232 H 103 V 232 H 104 V 232 H 102 V 232
+ H 101 V 232 H 96 V 232 H 96 V 232 H 96 V 232 H 100 V 232
+ H 94 V 232 H 89 V 232 H 80 V 232 H 80 V 232 H 90 V 232
+ H 93 V 232 H 83 V 232 H 64 V 232 H 64 V 232 H 79 V 232
+Sending data
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 0 value 11111111
+
+ Pos X 0 0 Pos Y 0 0 v=255+ Pos X 1 1 Pos Y 0 0 v=232
+ Pos X 0 0 Pos Y 1 1 v=232 Pos X 1 1 Pos Y 1 1 v=232
+
+ Neighbours 1
+AA
+checkIfAliveOrDead = true
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 0 value 1
+
+ Pos X 0 -1 Pos Y 0 0 v=1 Pos X 1 0 Pos Y 0 0 v=1 Pos X 2 1 Pos Y 0 0 v=232
+ Pos X 0 -1 Pos Y 1 1 v=1 Pos X 1 0 Pos Y 1 1 v=1 Pos X 2 1 Pos Y 1 1 v=232
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 0 value 1
+
+ Pos X 1 -1 Pos Y 0 0 v=1 Pos X 2 0 Pos Y 0 0 v=1 Pos X 3 1 Pos Y 0 0 v=232
+ Pos X 1 -1 Pos Y 1 1 v=1 Pos X 2 0 Pos Y 1 1 v=1 Pos X 3 1 Pos Y 1 1 v=232
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 0 value 1
+
+ Pos X 2 -1 Pos Y 0 0 v=1 Pos X 3 0 Pos Y 0 0 v=1 Pos X 4 1 Pos Y 0 0 v=232
+ Pos X 2 -1 Pos Y 1 1 v=1 Pos X 3 0 Pos Y 1 1 v=1 Pos X 4 1 Pos Y 1 1 v=232
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 0 value 1
+
+ Pos X 3 -1 Pos Y 0 0 v=1 Pos X 4 0 Pos Y 0 0 v=1 Pos X 5 1 Pos Y 0 0 v=161
+ Pos X 3 -1 Pos Y 1 1 v=1 Pos X 4 0 Pos Y 1 1 v=1 Pos X 5 1 Pos Y 1 1 v=67
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 1 value 1
+ Pos X 0 0 Pos Y 0 -1 v=1 Pos X 1 1 Pos Y 0 -1 v=1
+ Pos X 0 0 Pos Y 1 0 v=1 Pos X 1 1 Pos Y 1 0 v=1
+ Pos X 0 0 Pos Y 2 1 v=232 Pos X 1 1 Pos Y 2 1 v=232
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 1 value 1
+ Pos X 0 -1 Pos Y 0 -1 v=1 Pos X 1 0 Pos Y 0 -1 v=1 Pos X 2 1 Pos Y 0 -1 v=1
+ Pos X 0 -1 Pos Y 1 0 v=1 Pos X 1 0 Pos Y 1 0 v=1 Pos X 2 1 Pos Y 1 0 v=1
+ Pos X 0 -1 Pos Y 2 1 v=1 Pos X 1 0 Pos Y 2 1 v=1 Pos X 2 1 Pos Y 2 1 v=232
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 1 value 1
+ Pos X 1 -1 Pos Y 0 -1 v=1 Pos X 2 0 Pos Y 0 -1 v=1 Pos X 3 1 Pos Y 0 -1 v=1
+ Pos X 1 -1 Pos Y 1 0 v=1 Pos X 2 0 Pos Y 1 0 v=1 Pos X 3 1 Pos Y 1 0 v=1
+ Pos X 1 -1 Pos Y 2 1 v=1 Pos X 2 0 Pos Y 2 1 v=1 Pos X 3 1 Pos Y 2 1 v=232
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 1 value 1
+ Pos X 2 -1 Pos Y 0 -1 v=1 Pos X 3 0 Pos Y 0 -1 v=1 Pos X 4 1 Pos Y 0 -1 v=1
+ Pos X 2 -1 Pos Y 1 0 v=1 Pos X 3 0 Pos Y 1 0 v=1 Pos X 4 1 Pos Y 1 0 v=1
+ Pos X 2 -1 Pos Y 2 1 v=1 Pos X 3 0 Pos Y 2 1 v=1 Pos X 4 1 Pos Y 2 1 v=232
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 1 value 1
+ Pos X 3 -1 Pos Y 0 -1 v=1 Pos X 4 0 Pos Y 0 -1 v=1 Pos X 5 1 Pos Y 0 -1 v=1
+ Pos X 3 -1 Pos Y 1 0 v=1 Pos X 4 0 Pos Y 1 0 v=1 Pos X 5 1 Pos Y 1 0 v=1
+ Pos X 3 -1 Pos Y 2 1 v=1 Pos X 4 0 Pos Y 2 1 v=1 Pos X 5 1 Pos Y 2 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 2 value 1
+ Pos X 0 0 Pos Y 1 -1 v=1 Pos X 1 1 Pos Y 1 -1 v=1
+ Pos X 0 0 Pos Y 2 0 v=1 Pos X 1 1 Pos Y 2 0 v=1
+ Pos X 0 0 Pos Y 3 1 v=232 Pos X 1 1 Pos Y 3 1 v=232
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 2 value 1
+ Pos X 0 -1 Pos Y 1 -1 v=1 Pos X 1 0 Pos Y 1 -1 v=1 Pos X 2 1 Pos Y 1 -1 v=1
+ Pos X 0 -1 Pos Y 2 0 v=1 Pos X 1 0 Pos Y 2 0 v=1 Pos X 2 1 Pos Y 2 0 v=1
+ Pos X 0 -1 Pos Y 3 1 v=1 Pos X 1 0 Pos Y 3 1 v=1 Pos X 2 1 Pos Y 3 1 v=232
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 2 value 1
+ Pos X 1 -1 Pos Y 1 -1 v=1 Pos X 2 0 Pos Y 1 -1 v=1 Pos X 3 1 Pos Y 1 -1 v=1
+ Pos X 1 -1 Pos Y 2 0 v=1 Pos X 2 0 Pos Y 2 0 v=1 Pos X 3 1 Pos Y 2 0 v=1
+ Pos X 1 -1 Pos Y 3 1 v=1 Pos X 2 0 Pos Y 3 1 v=1 Pos X 3 1 Pos Y 3 1 v=232
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 2 value 1
+ Pos X 2 -1 Pos Y 1 -1 v=1 Pos X 3 0 Pos Y 1 -1 v=1 Pos X 4 1 Pos Y 1 -1 v=1
+ Pos X 2 -1 Pos Y 2 0 v=1 Pos X 3 0 Pos Y 2 0 v=1 Pos X 4 1 Pos Y 2 0 v=1
+ Pos X 2 -1 Pos Y 3 1 v=1 Pos X 3 0 Pos Y 3 1 v=1 Pos X 4 1 Pos Y 3 1 v=232
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 2 value 1
+ Pos X 3 -1 Pos Y 1 -1 v=1 Pos X 4 0 Pos Y 1 -1 v=1 Pos X 5 1 Pos Y 1 -1 v=1
+ Pos X 3 -1 Pos Y 2 0 v=1 Pos X 4 0 Pos Y 2 0 v=1 Pos X 5 1 Pos Y 2 0 v=1
+ Pos X 3 -1 Pos Y 3 1 v=1 Pos X 4 0 Pos Y 3 1 v=1 Pos X 5 1 Pos Y 3 1 v=191
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 3 value 1
+ Pos X 0 0 Pos Y 2 -1 v=1 Pos X 1 1 Pos Y 2 -1 v=1
+ Pos X 0 0 Pos Y 3 0 v=1 Pos X 1 1 Pos Y 3 0 v=1
+ Pos X 0 0 Pos Y 4 1 v=232 Pos X 1 1 Pos Y 4 1 v=232
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 3 value 1
+ Pos X 0 -1 Pos Y 2 -1 v=1 Pos X 1 0 Pos Y 2 -1 v=1 Pos X 2 1 Pos Y 2 -1 v=1
+ Pos X 0 -1 Pos Y 3 0 v=1 Pos X 1 0 Pos Y 3 0 v=1 Pos X 2 1 Pos Y 3 0 v=1
+ Pos X 0 -1 Pos Y 4 1 v=1 Pos X 1 0 Pos Y 4 1 v=1 Pos X 2 1 Pos Y 4 1 v=232
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 3 value 1
+ Pos X 1 -1 Pos Y 2 -1 v=1 Pos X 2 0 Pos Y 2 -1 v=1 Pos X 3 1 Pos Y 2 -1 v=1
+ Pos X 1 -1 Pos Y 3 0 v=1 Pos X 2 0 Pos Y 3 0 v=1 Pos X 3 1 Pos Y 3 0 v=1
+ Pos X 1 -1 Pos Y 4 1 v=1 Pos X 2 0 Pos Y 4 1 v=1 Pos X 3 1 Pos Y 4 1 v=232
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 3 value 1
+ Pos X 2 -1 Pos Y 2 -1 v=1 Pos X 3 0 Pos Y 2 -1 v=1 Pos X 4 1 Pos Y 2 -1 v=1
+ Pos X 2 -1 Pos Y 3 0 v=1 Pos X 3 0 Pos Y 3 0 v=1 Pos X 4 1 Pos Y 3 0 v=1
+ Pos X 2 -1 Pos Y 4 1 v=1 Pos X 3 0 Pos Y 4 1 v=1 Pos X 4 1 Pos Y 4 1 v=232
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 3 value 1
+ Pos X 3 -1 Pos Y 2 -1 v=1 Pos X 4 0 Pos Y 2 -1 v=1 Pos X 5 1 Pos Y 2 -1 v=1
+ Pos X 3 -1 Pos Y 3 0 v=1 Pos X 4 0 Pos Y 3 0 v=1 Pos X 5 1 Pos Y 3 0 v=1
+ Pos X 3 -1 Pos Y 4 1 v=1 Pos X 4 0 Pos Y 4 1 v=1 Pos X 5 1 Pos Y 4 1 v=77
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 4 value 1
+ Pos X 0 0 Pos Y 3 -1 v=1 Pos X 1 1 Pos Y 3 -1 v=1
+ Pos X 0 0 Pos Y 4 0 v=1 Pos X 1 1 Pos Y 4 0 v=1
+ Pos X 0 0 Pos Y 5 1 v=1 Pos X 1 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 4 value 1
+ Pos X 0 -1 Pos Y 3 -1 v=1 Pos X 1 0 Pos Y 3 -1 v=1 Pos X 2 1 Pos Y 3 -1 v=1
+ Pos X 0 -1 Pos Y 4 0 v=1 Pos X 1 0 Pos Y 4 0 v=1 Pos X 2 1 Pos Y 4 0 v=1
+ Pos X 0 -1 Pos Y 5 1 v=1 Pos X 1 0 Pos Y 5 1 v=1 Pos X 2 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 4 value 1
+ Pos X 1 -1 Pos Y 3 -1 v=1 Pos X 2 0 Pos Y 3 -1 v=1 Pos X 3 1 Pos Y 3 -1 v=1
+ Pos X 1 -1 Pos Y 4 0 v=1 Pos X 2 0 Pos Y 4 0 v=1 Pos X 3 1 Pos Y 4 0 v=1
+ Pos X 1 -1 Pos Y 5 1 v=1 Pos X 2 0 Pos Y 5 1 v=1 Pos X 3 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 4 value 1
+ Pos X 2 -1 Pos Y 3 -1 v=1 Pos X 3 0 Pos Y 3 -1 v=1 Pos X 4 1 Pos Y 3 -1 v=1
+ Pos X 2 -1 Pos Y 4 0 v=1 Pos X 3 0 Pos Y 4 0 v=1 Pos X 4 1 Pos Y 4 0 v=1
+ Pos X 2 -1 Pos Y 5 1 v=1 Pos X 3 0 Pos Y 5 1 v=1 Pos X 4 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 4 value 1
+ Pos X 3 -1 Pos Y 3 -1 v=1 Pos X 4 0 Pos Y 3 -1 v=1 Pos X 5 1 Pos Y 3 -1 v=1
+ Pos X 3 -1 Pos Y 4 0 v=1 Pos X 4 0 Pos Y 4 0 v=1 Pos X 5 1 Pos Y 4 0 v=1
+ Pos X 3 -1 Pos Y 5 1 v=1 Pos X 4 0 Pos Y 5 1 v=1 Pos X 5 1 Pos Y 5 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Generation 4 Number of cells alive 1 Number of cells killed 24
+ H 89 V 255 H 97 V 224 H 102 V 224 H 102 V 224 H 102 V 224
+ H 97 V 224 H 98 V 224 H 99 V 224 H 101 V 224 H 100 V 224
+ H 98 V 224 H 95 V 224 H 93 V 224 H 94 V 224 H 95 V 224
+ H 93 V 224 H 88 V 224 H 83 V 224 H 83 V 224 H 87 V 224
+ H 84 V 224 H 85 V 224 H 74 V 224 H 73 V 224 H 80 V 224
+Sending data
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 0 value 11111111
+
+ Pos X 0 0 Pos Y 0 0 v=255+ Pos X 1 1 Pos Y 0 0 v=224
+ Pos X 0 0 Pos Y 1 1 v=224 Pos X 1 1 Pos Y 1 1 v=224
+
+ Neighbours 1
+AA
+checkIfAliveOrDead = true
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 0 value 1
+
+ Pos X 0 -1 Pos Y 0 0 v=1 Pos X 1 0 Pos Y 0 0 v=1 Pos X 2 1 Pos Y 0 0 v=224
+ Pos X 0 -1 Pos Y 1 1 v=1 Pos X 1 0 Pos Y 1 1 v=1 Pos X 2 1 Pos Y 1 1 v=224
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 0 value 1
+
+ Pos X 1 -1 Pos Y 0 0 v=1 Pos X 2 0 Pos Y 0 0 v=1 Pos X 3 1 Pos Y 0 0 v=224
+ Pos X 1 -1 Pos Y 1 1 v=1 Pos X 2 0 Pos Y 1 1 v=1 Pos X 3 1 Pos Y 1 1 v=224
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 0 value 1
+
+ Pos X 2 -1 Pos Y 0 0 v=1 Pos X 3 0 Pos Y 0 0 v=1 Pos X 4 1 Pos Y 0 0 v=224
+ Pos X 2 -1 Pos Y 1 1 v=1 Pos X 3 0 Pos Y 1 1 v=1 Pos X 4 1 Pos Y 1 1 v=224
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 0 value 1
+
+ Pos X 3 -1 Pos Y 0 0 v=1 Pos X 4 0 Pos Y 0 0 v=1 Pos X 5 1 Pos Y 0 0 v=168
+ Pos X 3 -1 Pos Y 1 1 v=1 Pos X 4 0 Pos Y 1 1 v=1 Pos X 5 1 Pos Y 1 1 v=72
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 1 value 1
+ Pos X 0 0 Pos Y 0 -1 v=1 Pos X 1 1 Pos Y 0 -1 v=1
+ Pos X 0 0 Pos Y 1 0 v=1 Pos X 1 1 Pos Y 1 0 v=1
+ Pos X 0 0 Pos Y 2 1 v=224 Pos X 1 1 Pos Y 2 1 v=224
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 1 value 1
+ Pos X 0 -1 Pos Y 0 -1 v=1 Pos X 1 0 Pos Y 0 -1 v=1 Pos X 2 1 Pos Y 0 -1 v=1
+ Pos X 0 -1 Pos Y 1 0 v=1 Pos X 1 0 Pos Y 1 0 v=1 Pos X 2 1 Pos Y 1 0 v=1
+ Pos X 0 -1 Pos Y 2 1 v=1 Pos X 1 0 Pos Y 2 1 v=1 Pos X 2 1 Pos Y 2 1 v=224
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 1 value 1
+ Pos X 1 -1 Pos Y 0 -1 v=1 Pos X 2 0 Pos Y 0 -1 v=1 Pos X 3 1 Pos Y 0 -1 v=1
+ Pos X 1 -1 Pos Y 1 0 v=1 Pos X 2 0 Pos Y 1 0 v=1 Pos X 3 1 Pos Y 1 0 v=1
+ Pos X 1 -1 Pos Y 2 1 v=1 Pos X 2 0 Pos Y 2 1 v=1 Pos X 3 1 Pos Y 2 1 v=224
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 1 value 1
+ Pos X 2 -1 Pos Y 0 -1 v=1 Pos X 3 0 Pos Y 0 -1 v=1 Pos X 4 1 Pos Y 0 -1 v=1
+ Pos X 2 -1 Pos Y 1 0 v=1 Pos X 3 0 Pos Y 1 0 v=1 Pos X 4 1 Pos Y 1 0 v=1
+ Pos X 2 -1 Pos Y 2 1 v=1 Pos X 3 0 Pos Y 2 1 v=1 Pos X 4 1 Pos Y 2 1 v=224
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 1 value 1
+ Pos X 3 -1 Pos Y 0 -1 v=1 Pos X 4 0 Pos Y 0 -1 v=1 Pos X 5 1 Pos Y 0 -1 v=1
+ Pos X 3 -1 Pos Y 1 0 v=1 Pos X 4 0 Pos Y 1 0 v=1 Pos X 5 1 Pos Y 1 0 v=1
+ Pos X 3 -1 Pos Y 2 1 v=1 Pos X 4 0 Pos Y 2 1 v=1 Pos X 5 1 Pos Y 2 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 2 value 1
+ Pos X 0 0 Pos Y 1 -1 v=1 Pos X 1 1 Pos Y 1 -1 v=1
+ Pos X 0 0 Pos Y 2 0 v=1 Pos X 1 1 Pos Y 2 0 v=1
+ Pos X 0 0 Pos Y 3 1 v=224 Pos X 1 1 Pos Y 3 1 v=224
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 2 value 1
+ Pos X 0 -1 Pos Y 1 -1 v=1 Pos X 1 0 Pos Y 1 -1 v=1 Pos X 2 1 Pos Y 1 -1 v=1
+ Pos X 0 -1 Pos Y 2 0 v=1 Pos X 1 0 Pos Y 2 0 v=1 Pos X 2 1 Pos Y 2 0 v=1
+ Pos X 0 -1 Pos Y 3 1 v=1 Pos X 1 0 Pos Y 3 1 v=1 Pos X 2 1 Pos Y 3 1 v=224
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 2 value 1
+ Pos X 1 -1 Pos Y 1 -1 v=1 Pos X 2 0 Pos Y 1 -1 v=1 Pos X 3 1 Pos Y 1 -1 v=1
+ Pos X 1 -1 Pos Y 2 0 v=1 Pos X 2 0 Pos Y 2 0 v=1 Pos X 3 1 Pos Y 2 0 v=1
+ Pos X 1 -1 Pos Y 3 1 v=1 Pos X 2 0 Pos Y 3 1 v=1 Pos X 3 1 Pos Y 3 1 v=224
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 2 value 1
+ Pos X 2 -1 Pos Y 1 -1 v=1 Pos X 3 0 Pos Y 1 -1 v=1 Pos X 4 1 Pos Y 1 -1 v=1
+ Pos X 2 -1 Pos Y 2 0 v=1 Pos X 3 0 Pos Y 2 0 v=1 Pos X 4 1 Pos Y 2 0 v=1
+ Pos X 2 -1 Pos Y 3 1 v=1 Pos X 3 0 Pos Y 3 1 v=1 Pos X 4 1 Pos Y 3 1 v=224
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 2 value 1
+ Pos X 3 -1 Pos Y 1 -1 v=1 Pos X 4 0 Pos Y 1 -1 v=1 Pos X 5 1 Pos Y 1 -1 v=1
+ Pos X 3 -1 Pos Y 2 0 v=1 Pos X 4 0 Pos Y 2 0 v=1 Pos X 5 1 Pos Y 2 0 v=1
+ Pos X 3 -1 Pos Y 3 1 v=1 Pos X 4 0 Pos Y 3 1 v=1 Pos X 5 1 Pos Y 3 1 v=185
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 3 value 1
+ Pos X 0 0 Pos Y 2 -1 v=1 Pos X 1 1 Pos Y 2 -1 v=1
+ Pos X 0 0 Pos Y 3 0 v=1 Pos X 1 1 Pos Y 3 0 v=1
+ Pos X 0 0 Pos Y 4 1 v=224 Pos X 1 1 Pos Y 4 1 v=224
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 3 value 1
+ Pos X 0 -1 Pos Y 2 -1 v=1 Pos X 1 0 Pos Y 2 -1 v=1 Pos X 2 1 Pos Y 2 -1 v=1
+ Pos X 0 -1 Pos Y 3 0 v=1 Pos X 1 0 Pos Y 3 0 v=1 Pos X 2 1 Pos Y 3 0 v=1
+ Pos X 0 -1 Pos Y 4 1 v=1 Pos X 1 0 Pos Y 4 1 v=1 Pos X 2 1 Pos Y 4 1 v=224
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 3 value 1
+ Pos X 1 -1 Pos Y 2 -1 v=1 Pos X 2 0 Pos Y 2 -1 v=1 Pos X 3 1 Pos Y 2 -1 v=1
+ Pos X 1 -1 Pos Y 3 0 v=1 Pos X 2 0 Pos Y 3 0 v=1 Pos X 3 1 Pos Y 3 0 v=1
+ Pos X 1 -1 Pos Y 4 1 v=1 Pos X 2 0 Pos Y 4 1 v=1 Pos X 3 1 Pos Y 4 1 v=224
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 3 value 1
+ Pos X 2 -1 Pos Y 2 -1 v=1 Pos X 3 0 Pos Y 2 -1 v=1 Pos X 4 1 Pos Y 2 -1 v=1
+ Pos X 2 -1 Pos Y 3 0 v=1 Pos X 3 0 Pos Y 3 0 v=1 Pos X 4 1 Pos Y 3 0 v=1
+ Pos X 2 -1 Pos Y 4 1 v=1 Pos X 3 0 Pos Y 4 1 v=1 Pos X 4 1 Pos Y 4 1 v=224
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 3 value 1
+ Pos X 3 -1 Pos Y 2 -1 v=1 Pos X 4 0 Pos Y 2 -1 v=1 Pos X 5 1 Pos Y 2 -1 v=1
+ Pos X 3 -1 Pos Y 3 0 v=1 Pos X 4 0 Pos Y 3 0 v=1 Pos X 5 1 Pos Y 3 0 v=1
+ Pos X 3 -1 Pos Y 4 1 v=1 Pos X 4 0 Pos Y 4 1 v=1 Pos X 5 1 Pos Y 4 1 v=79
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 0 Y 4 value 1
+ Pos X 0 0 Pos Y 3 -1 v=1 Pos X 1 1 Pos Y 3 -1 v=1
+ Pos X 0 0 Pos Y 4 0 v=1 Pos X 1 1 Pos Y 4 0 v=1
+ Pos X 0 0 Pos Y 5 1 v=1 Pos X 1 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 1 Y 4 value 1
+ Pos X 0 -1 Pos Y 3 -1 v=1 Pos X 1 0 Pos Y 3 -1 v=1 Pos X 2 1 Pos Y 3 -1 v=1
+ Pos X 0 -1 Pos Y 4 0 v=1 Pos X 1 0 Pos Y 4 0 v=1 Pos X 2 1 Pos Y 4 0 v=1
+ Pos X 0 -1 Pos Y 5 1 v=1 Pos X 1 0 Pos Y 5 1 v=1 Pos X 2 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 2 Y 4 value 1
+ Pos X 1 -1 Pos Y 3 -1 v=1 Pos X 2 0 Pos Y 3 -1 v=1 Pos X 3 1 Pos Y 3 -1 v=1
+ Pos X 1 -1 Pos Y 4 0 v=1 Pos X 2 0 Pos Y 4 0 v=1 Pos X 3 1 Pos Y 4 0 v=1
+ Pos X 1 -1 Pos Y 5 1 v=1 Pos X 2 0 Pos Y 5 1 v=1 Pos X 3 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 3 Y 4 value 1
+ Pos X 2 -1 Pos Y 3 -1 v=1 Pos X 3 0 Pos Y 3 -1 v=1 Pos X 4 1 Pos Y 3 -1 v=1
+ Pos X 2 -1 Pos Y 4 0 v=1 Pos X 3 0 Pos Y 4 0 v=1 Pos X 4 1 Pos Y 4 0 v=1
+ Pos X 2 -1 Pos Y 5 1 v=1 Pos X 3 0 Pos Y 5 1 v=1 Pos X 4 1 Pos Y 5 1 v=1
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
+Checking if alive or dead
+Getting Neighbour count
+X 4 Y 4 value 1
+ Pos X 3 -1 Pos Y 3 -1 v=1 Pos X 4 0 Pos Y 3 -1 v=1 Pos X 5 1 Pos Y 3 -1 v=1
+ Pos X 3 -1 Pos Y 4 0 v=1 Pos X 4 0 Pos Y 4 0 v=1 Pos X 5 1 Pos Y 4 0 v=1
+ Pos X 3 -1 Pos Y 5 1 v=1 Pos X 4 0 Pos Y 5 1 v=1 Pos X 5 1 Pos Y 5 1 v=0
+
+ Neighbours 0
+checkIfAliveOrDead = false, decaying
